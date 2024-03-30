@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: "header header header" "menu main main" "footer footer footer";
+    grid-template-columns: auto;
+
+}
+
+.header,
+.footer {
+    height: 10em;
+    background-color: rgb(0, 0, 7);
+    color: azure;
+}
+
+.menu,
+.main {
+    height: 40em;
+
+}
+
+.header {
+    grid-area: header;
+    display: inline-block;
+
+
+}
+
+img.logo {
+    width: 15%;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: rgb(153, 221, 244);
+
+}
+
+.main {
+    grid-area: main;
+    background-color: rgb(197, 244, 197);
+
+}
+
+.footer {
+    grid-area: footer;
+
+}
+
+
+.header h1 {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 4em;
+    display: inline;
+    margin: 1rem;
+
+}
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+}
