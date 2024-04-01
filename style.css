@@ -71,6 +71,10 @@
     border: 1px solid black
 }
 
+.galeria>img {
+    size: 10px;
+}
+
 .item1 {
     grid-column: 1/2;
     grid-row: 1/2;
